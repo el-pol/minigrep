@@ -16,5 +16,21 @@ impl Config {
 
 pub fn run(config: Config) {
     let content = fs::read_to_string(config.filename).expect("The file could not be read");
-    println!("{}", &content[..30]);
+    let found = search(&config.query, &content);
+
+    for element in found {
+        println!("{}", element)
+    }
+}
+
+// 'a is to specify the lifetime.
+pub fn search<'a>(query: &str, content: &'a str) -> Vec<&'a str> {
+    let mut result = Vec::new();
+
+    for line in content.lines() {
+        if line.contains(query) {
+            result.push(line);
+        }
+    }
+    result
 }
