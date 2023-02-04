@@ -6,8 +6,5 @@ fn main() {
 
     let config = Config::new(&args);
 
-    println!("arxiu: {}", config.filename);
-    println!("buscar: {}", config.query);
-
     minigrep::run(config)
 }
