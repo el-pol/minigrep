@@ -187,8 +187,6 @@ Project Link: [https://github.com/el-pol/rust-minigrep](https://github.com/el-po
 ## Acknowledgments
 
 * [Julio Andres](https://pkg.go.dev/github.com/aws/aws-lambda-go@v1.36.0)
-* [Oauth1](https://pkg.go.dev/github.com/dghubble/oauth1@v0.7.2)
-* [Godotenv](https://pkg.go.dev/github.com/joho/godotenv@v1.4.0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,5 +205,5 @@ Project Link: [https://github.com/el-pol/rust-minigrep](https://github.com/el-po
 [license-shield]: https://img.shields.io/github/license/el-pol/lovebot.svg?style=for-the-badge
 [license-url]: https://github.com/el-pol/lovebot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[Rust]:https://www.rust-lang.org/
+[Rust]: https://www.rust-lang.org/
 [linkedin-url]: https://www.linkedin.com/in/pol-milian/
